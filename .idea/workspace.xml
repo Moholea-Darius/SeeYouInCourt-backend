@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="update dependencies T0-7">
+    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="create data models T0-12">
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Church.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GroupPrivateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/GroupPublicEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/NotificationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/PrivateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/PublicEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/RoomStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Sex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/UserGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/Application.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +35,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +65,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Application" />
@@ -65,6 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
@@ -102,6 +125,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Application class" />
     <MESSAGE value="update dependencies T0-7" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dependencies T0-7" />
+    <MESSAGE value="create data models T0-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="create data models T0-12" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/model/GroupPublicEvent.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
