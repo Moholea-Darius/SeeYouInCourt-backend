@@ -5,44 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="create data models T0-12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Announcement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/AnnouncementType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Church.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/GroupPrivateEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/GroupPublicEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Notification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/NotificationStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PrivateEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PublicEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/RoomStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Sex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Announcement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/AnnouncementType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Church.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GroupPrivateEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GroupPublicEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/NotificationStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/PrivateEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/PublicEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/RoomStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Sex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/UserGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
