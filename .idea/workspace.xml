@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="create data models T0-12">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/company/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,6 +53,7 @@
       <recent name="model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dani\Desktop\SeeYouInCourt-backend\src\main\resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/company/model" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/company" />
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652814590509</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added data.sql">
+      <created>1654604029793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654604029793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -219,7 +224,8 @@
     <MESSAGE value="Add Application class" />
     <MESSAGE value="update dependencies T0-7" />
     <MESSAGE value="create data models T0-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="create data models T0-12" />
+    <MESSAGE value="added data.sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="added data.sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
