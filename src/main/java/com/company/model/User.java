@@ -63,6 +63,9 @@ public class User {
         this.notifications = notifications;
     }
 
+    public User() {
+    }
+
     public int getId() {
         return id;
     }

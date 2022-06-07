@@ -27,6 +27,9 @@ public class Room {
         this.status = status;
     }
 
+    public Room() {
+    }
+
     public int getId() {
         return id;
     }

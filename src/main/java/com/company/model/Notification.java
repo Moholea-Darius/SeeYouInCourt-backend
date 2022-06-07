@@ -33,14 +33,17 @@ public class Notification {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
-    public Notification(int id, String sender, String title, String message, String sendDate, String readDate, String status) {
-        this.id = id;
+    public Notification(String sender, String title, String message, String sendDate, String readDate, String status, User user) {
         this.sender = sender;
         this.title = title;
         this.message = message;
         this.sendDate = sendDate;
         this.readDate = readDate;
         this.status = status;
+        this.user = user;
+    }
+
+    public Notification() {
     }
 
     public int getId() {
