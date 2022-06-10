@@ -1,8 +1,19 @@
 package com.company.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+import lombok.experimental.SuperBuilder;
+
 import javax.persistence.*;
 import java.util.List;
 
+@SuperBuilder
+@Data
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "PRIVATE_EVENTS")
 public class PrivateEvent extends Event {
@@ -19,36 +30,5 @@ public class PrivateEvent extends Event {
             joinColumns = @JoinColumn(name = "private_event_id"),
             inverseJoinColumns = @JoinColumn(name = "group_id"))
     private List<Group> groups;
-
-    public PrivateEvent(int id, String name, String startDate, String endDate, String location, String details) {
-        super(id, name, startDate, endDate);
-        this.location = location;
-        this.details = details;
-    }
-
-    public String getLocation() {
-        return location;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public String getDetails() {
-        return details;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
-    }
-
-    @Override
-    public String toString() {
-        return "PrivateEvent{" +
-                "location='" + location + '\'' +
-                ", details='" + details + '\'' +
-                super.toString() +
-                '}';
-    }
 
 }
