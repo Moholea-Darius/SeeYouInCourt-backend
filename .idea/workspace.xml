@@ -4,34 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/NotificationRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="create data models T0-12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/PrivateEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/PublicEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/GroupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/NotificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/PrivateEventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/PublicEventDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/GroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/NotificationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/PrivateEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/PublicEventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/GroupRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/PrivateEventRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/PublicEventRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/GroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/PrivateEventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/PublicEventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/util/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/PrivateEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/PrivateEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/PublicEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/PublicEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Announcement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Church.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/PrivateEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/PublicEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/constants/AnnouncementType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/constants/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/constants/NotificationStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/constants/Sex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/constants/Status.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/constants/UserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +62,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -74,6 +89,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
