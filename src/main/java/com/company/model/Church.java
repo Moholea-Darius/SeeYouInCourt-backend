@@ -2,6 +2,7 @@ package com.company.model;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name = "CHURCH")
 public class Church {
