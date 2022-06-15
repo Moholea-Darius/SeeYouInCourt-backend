@@ -1,0 +1,50 @@
+package com.company.service;
+
+import com.company.dtos.AnnouncementDTO;
+import com.company.dtos.mappers.AnnouncementMapper;
+import com.company.model.Announcement;
+import com.company.repository.AnnouncementRepo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.stream.Collectors;
+
+@Service
+
+public class AnnouncementService {
+
+    private AnnouncementRepo repo;
+
+    @Autowired
+    public AnnouncementService (AnnouncementRepo repo) {
+
+        this.repo = repo;
+    }
+    public List<AnnouncementDTO> findAll() {
+        return repo.findAll()
+                .stream()
+                .map(AnnouncementMapper::toDTO)
+                .collect(Collectors.toList());
+    }
+
+    public AnnouncementDTO findById (int id) {
+        Optional<Announcement> optionalAnnouncement = repo.findById(id);
+        if (optionalAnnouncement.isEmpty()) {
+            throw new IllegalArgumentException("Announcement not found!");
+        }
+        return AnnouncementMapper.toDTO(optionalAnnouncement.get());
+    }
+
+    public AnnouncementDTO add (AnnouncementDTO announcementDTO) {
+        Announcement receivedAnnouncement = AnnouncementMapper.toAnnouncement(announcementDTO);
+        Announcement savedAnnouncement = repo.save(receivedAnnouncement);
+        return AnnouncementMapper.toDTO(savedAnnouncement);
+    }
+
+    public void deleteById(int id) {
+        repo.deleteById(id);
+    }
+
+}
