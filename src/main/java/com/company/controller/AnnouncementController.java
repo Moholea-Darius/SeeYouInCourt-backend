@@ -44,9 +44,23 @@ public class AnnouncementController {
 
     @DeleteMapping(path = "/delete")
     public ResponseEntity<String> deleteById(@RequestParam("id") int id) {
-        service.deleteById(id);
-        return new ResponseEntity("Announcement deleted!", HttpStatus.OK);
+        try {
+            service.deleteById(id);
+            return new ResponseEntity("Announcement deleted!", HttpStatus.OK);
+        } catch (IllegalArgumentException e)  {
+            return new ResponseEntity<>("Announcement ID not found", HttpStatus.NOT_FOUND);
+        }
     }
 
+    @GetMapping(path = "/lastThreeAnnouncements")
+    public ResponseEntity<Object> lastThreeAnnouncements () {
+        try {
+        List<AnnouncementDTO> lastThree = service.lastThreeAnnouncements();
+        return new ResponseEntity<>(lastThree, HttpStatus.OK);}
+        catch (IllegalArgumentException e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
 
 }
+

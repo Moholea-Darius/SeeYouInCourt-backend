@@ -4,7 +4,6 @@ import com.company.model.constants.AnnouncementType;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -31,5 +30,7 @@ public class Announcement {
 
     @Column(name = "send_date")
     private String sentDate;
+
+    private String lastThreeAnnouncements;
 
 }

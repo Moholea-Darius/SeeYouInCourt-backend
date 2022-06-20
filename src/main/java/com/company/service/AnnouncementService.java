@@ -22,6 +22,7 @@ public class AnnouncementService {
 
         this.repo = repo;
     }
+
     public List<AnnouncementDTO> findAll() {
         return repo.findAll()
                 .stream()
@@ -43,8 +44,22 @@ public class AnnouncementService {
         return AnnouncementMapper.toDTO(savedAnnouncement);
     }
 
-    public void deleteById(int id) {
+    public void deleteById(int id) throws IllegalArgumentException {
+        findById(id);
         repo.deleteById(id);
     }
+
+    public List<AnnouncementDTO> lastThreeAnnouncements() {
+        List<Announcement> announcement = repo.findAll();
+        if (announcement.isEmpty()) {
+            throw new IllegalArgumentException("No Announcements!");
+        }
+       return repo.findAll().subList(Math.max(findAll().size()-3,0), findAll().size())
+               .stream()
+               .map(AnnouncementMapper::toDTO)
+               .collect(Collectors.toList());
+
+    }
+
 
 }

@@ -1,11 +1,16 @@
 package com.company.model;
 
-import lombok.Data;
+import com.company.model.constants.Status;
+import lombok.*;
 
 import javax.persistence.*;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Data
 @Entity
+@ToString
 @Table(name = "ROOMS")
 public class Room {
 
@@ -21,23 +26,6 @@ public class Room {
     private int maxCapacity;
 
     @Column(name = "status")
-    private String status;
-
-    public Room(int id, int number, int maxCapacity, String status) {
-        this.id = id;
-        this.number = number;
-        this.maxCapacity = maxCapacity;
-        this.status = status;
-    }
-
-    @Override
-    public String toString() {
-        return "Room{" +
-                "id=" + id +
-                ", number=" + number +
-                ", maxCapacity=" + maxCapacity +
-                ", status=" + status +
-                '}';
-    }
+    private Status status;
 
 }
