@@ -10,6 +10,4 @@ import java.util.Optional;
 @Repository
 public interface ChurchRepo extends JpaRepository<Church, String> {
 
-    Optional<Church> findByName(String name);
-
 }

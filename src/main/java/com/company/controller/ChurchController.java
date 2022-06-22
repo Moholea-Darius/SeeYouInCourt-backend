@@ -23,18 +23,18 @@ public class ChurchController {
     }
 
     @GetMapping(path = "/getChurch")
-    public ResponseEntity<Object> findByName(@RequestParam("name") String name) {
-            ChurchDTO churchDTO = service.findByName(name);
+    public ResponseEntity<Object> getChurch() {
+            ChurchDTO churchDTO = service.getChurch();
             return new ResponseEntity<>(churchDTO, HttpStatus.OK);
     }
 
     @PutMapping(path = "/updateEmail")
-    public ResponseEntity<Object> updateEmail(@RequestParam("name") String name, @RequestParam("email") String email) {
-            return new ResponseEntity<>(service.updateEmail(name, email), HttpStatus.OK);
+    public ResponseEntity<Object> updateEmail( @RequestParam("email") String email) {
+            return new ResponseEntity<>(service.updateEmail(email), HttpStatus.OK);
     }
     @PutMapping(path = "/updatePhoneNumber")
-    public ResponseEntity<Object> updatePhoneNumber(@RequestParam("name") String name, @RequestParam("phoneNumber") String phoneNumber) {
-        return new ResponseEntity<>(service.updatePhoneNumber(name, phoneNumber), HttpStatus.OK);
+    public ResponseEntity<Object> updatePhoneNumber( @RequestParam("phoneNumber") String phoneNumber) {
+        return new ResponseEntity<>(service.updatePhoneNumber(phoneNumber), HttpStatus.OK);
     }
 
 }

@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="CRUD Announcement">
+    <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="CRUD Church and Room + last3Announcement method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/AnnouncementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/AnnouncementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Announcement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Church.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Church.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/repository/AnnouncementRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/AnnouncementRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/ChurchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/ChurchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/repository/ChurchRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/ChurchRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/AnnouncementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/AnnouncementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Announcement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Announcement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Church.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Church.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Notification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/PrivateEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/PrivateEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/PublicEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/PublicEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/ChurchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/ChurchService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655298495637</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="CRUD Church and Room + last3Announcement method">
+      <created>1655759811075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655759811075</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -274,7 +270,8 @@
     <MESSAGE value="create data models T0-12" />
     <MESSAGE value="added data.sql" />
     <MESSAGE value="CRUD Announcement" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD Announcement" />
+    <MESSAGE value="CRUD Church and Room + last3Announcement method" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD Church and Room + last3Announcement method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

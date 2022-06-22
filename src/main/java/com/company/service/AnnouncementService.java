@@ -39,8 +39,7 @@ public class AnnouncementService {
     }
 
     public AnnouncementDTO add (AnnouncementDTO announcementDTO) {
-        Announcement receivedAnnouncement = AnnouncementMapper.toAnnouncement(announcementDTO);
-        Announcement savedAnnouncement = repo.save(receivedAnnouncement);
+        Announcement savedAnnouncement = repo.save(AnnouncementMapper.toAnnouncement(announcementDTO));
         return AnnouncementMapper.toDTO(savedAnnouncement);
     }
 
@@ -49,16 +48,15 @@ public class AnnouncementService {
         repo.deleteById(id);
     }
 
-    public List<AnnouncementDTO> lastThreeAnnouncements() {
+    public List<AnnouncementDTO> getLastThreeAnnouncements() {
         List<Announcement> announcement = repo.findAll();
         if (announcement.isEmpty()) {
             throw new IllegalArgumentException("No Announcements!");
         }
-       return repo.findAll().subList(Math.max(findAll().size()-3,0), findAll().size())
+       return announcement.subList(Math.max(announcement.size()-3,0), announcement.size())
                .stream()
                .map(AnnouncementMapper::toDTO)
                .collect(Collectors.toList());
-
     }
 
 
