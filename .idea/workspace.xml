@@ -5,39 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb39ef65-0ab5-4799-8e01-5f6f7198ea49" name="Changes" comment="create data models T0-12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/GroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/PrivateEventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/PublicEventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/GroupDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/NotificationDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/PrivateEventDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/PublicEventDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/GroupMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/NotificationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/PrivateEventMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/PublicEventMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/GroupRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/PrivateEventRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/repository/PublicEventRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/GroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/PrivateEventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/PublicEventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/service/util/Converter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/controller/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/NotificationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/NotificationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dtos/mappers/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Announcement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Announcement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Church.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Church.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/PrivateEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/PrivateEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/PublicEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/PublicEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/constants/AnnouncementType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/constant/AnnouncementType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/constants/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/constant/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/constants/NotificationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/constant/NotificationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/constants/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/constant/Sex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/constants/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/constant/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/model/constants/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/model/constant/UserType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/NotificationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/service/util/Converter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
