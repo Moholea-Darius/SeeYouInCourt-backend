@@ -42,6 +42,16 @@ public class UserService {
         return UserMapper.toDTO(optionalUser.get());
     }
 
+
+    public Object findByEmail(String email) {
+        Optional<User> optionalUser = repo.findByEmail(email);
+
+        if (optionalUser.isEmpty()) {
+            throw new IllegalArgumentException("User not found!");
+        }
+        return UserMapper.toDTO(optionalUser.get());
+    }
+
     public UserDTO add(UserDTO userDTO) {
         User receivedUser = UserMapper.toUser(userDTO);
         User savedUser = repo.save(receivedUser);
