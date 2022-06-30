@@ -2,7 +2,7 @@ package com.company.service;
 
 import com.company.model.Notification;
 import com.company.model.User;
-import com.company.model.constants.NotificationStatus;
+import com.company.model.constant.NotificationStatus;
 import com.company.dtos.NotificationDTO;
 import com.company.dtos.mappers.NotificationMapper;
 import com.company.repository.NotificationRepo;

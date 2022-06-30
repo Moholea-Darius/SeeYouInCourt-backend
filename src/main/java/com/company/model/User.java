@@ -1,7 +1,7 @@
 package com.company.model;
 
-import com.company.model.constants.Sex;
-import com.company.model.constants.UserType;
+import com.company.model.constant.Sex;
+import com.company.model.constant.UserType;
 import lombok.*;
 
 import javax.persistence.*;

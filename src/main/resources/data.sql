@@ -24,6 +24,6 @@ VALUES
 
 INSERT INTO ROOMS (MAX_CAPACITY, NUMBER, STATUS)
 VALUES
-(300, 1, 'free'),
-(50, 2, 'free'),
-(50, 3, 'free');
+(300, 1, 0),
+(50, 2, 1),
+(50, 3, 0);

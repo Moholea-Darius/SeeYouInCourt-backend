@@ -1,9 +1,18 @@
 package com.company.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "ANNOUNCEMENTS")
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Announcement {
 
     @Id
@@ -22,65 +31,5 @@ public class Announcement {
 
     @Column(name = "send_date")
     private String sentDate;
-
-
-    public Announcement(int id, String sender, String message, String type, String sentDate) {
-        this.id = id;
-        this.sender = sender;
-        this.message = message;
-        this.type = type;
-        this.sentDate = sentDate;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getSender() {
-        return sender;
-    }
-
-    public void setSender(String sender) {
-        this.sender = sender;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public String getSentDate() {
-        return sentDate;
-    }
-
-    public void setSentDate(String sentDate) {
-        this.sentDate = sentDate;
-    }
-
-    @Override
-    public String toString() {
-        return "Announcement{" +
-                "id=" + id +
-                ", sender='" + sender + '\'' +
-                ", message='" + message + '\'' +
-                ", type=" + type +
-                ", sentDate=" + sentDate +
-                '}';
-    }
 
 }

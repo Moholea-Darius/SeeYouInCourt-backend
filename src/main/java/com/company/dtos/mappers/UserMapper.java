@@ -2,8 +2,8 @@ package com.company.dtos.mappers;
 
 import com.company.model.User;
 import com.company.dtos.UserDTO;
-import com.company.model.constants.Sex;
-import com.company.model.constants.UserType;
+import com.company.model.constant.Sex;
+import com.company.model.constant.UserType;
 
 import java.util.ArrayList;
 import java.util.Arrays;

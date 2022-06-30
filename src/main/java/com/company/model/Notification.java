@@ -1,6 +1,6 @@
 package com.company.model;
 
-import com.company.model.constants.NotificationStatus;
+import com.company.model.constant.NotificationStatus;
 import lombok.*;
 
 import javax.persistence.*;

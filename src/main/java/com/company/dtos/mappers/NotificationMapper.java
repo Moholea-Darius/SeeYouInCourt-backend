@@ -2,7 +2,7 @@ package com.company.dtos.mappers;
 
 import com.company.model.Notification;
 import com.company.dtos.NotificationDTO;
-import com.company.model.constants.NotificationStatus;
+import com.company.model.constant.NotificationStatus;
 
 public class NotificationMapper {
 

@@ -3,8 +3,6 @@ package com.company.service;
 import com.company.dtos.UserDTO;
 import com.company.dtos.mappers.UserMapper;
 import com.company.model.User;
-import com.company.model.constants.Sex;
-import com.company.model.constants.UserType;
 import com.company.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
