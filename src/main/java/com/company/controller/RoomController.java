@@ -45,8 +45,8 @@ public class RoomController {
     }
 
     @PutMapping(path = "/updateRoomStatusByRoomNo")
-    public ResponseEntity<Object> updateStatus(@RequestParam("roomNo") int number, @RequestParam("status") String status) {
-        return new ResponseEntity<>(service.updateStatus(number, status), HttpStatus.OK);
+    public ResponseEntity<Object> updateRoomStatusByRoomNo(@RequestParam("roomNo") int number, @RequestParam("status") String status) {
+        return new ResponseEntity<>(service.updateRoomStatusByRoomNo(number, status), HttpStatus.OK);
     }
 
 }

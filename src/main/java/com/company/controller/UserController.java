@@ -34,6 +34,15 @@ public class UserController {
         }
     }
 
+    @GetMapping(path = "/findByEmail")
+    public ResponseEntity<Object> findByEmail(@RequestParam("email") String email) {
+        try {
+            return new ResponseEntity<>(service.findByEmail(email), HttpStatus.OK);
+        } catch (IllegalArgumentException e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+
     @PostMapping(path = "/add")
     public ResponseEntity<Object> add(@RequestBody UserDTO userDTO) {
         return new ResponseEntity<>(service.add(userDTO), HttpStatus.OK);

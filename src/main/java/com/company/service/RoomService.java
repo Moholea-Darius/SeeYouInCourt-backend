@@ -46,7 +46,7 @@ public class RoomService {
         return RoomMapper.toDTO(optionalRoom.get());
     }
 
-    public RoomDTO updateStatus(int number, String status) {
+    public RoomDTO updateRoomStatusByRoomNo(int number, String status) {
         Optional<Room> optionalRoom = repo.findByNumber(number);
         optionalRoom.get().setStatus(Status.valueOf(status));
         Room room = repo.save(optionalRoom.get());
