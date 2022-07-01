@@ -48,6 +48,9 @@ public class RoomService {
 
     public RoomDTO updateRoomStatusByRoomNo(int number, String status) {
         Optional<Room> optionalRoom = repo.findByNumber(number);
+        if (optionalRoom.isEmpty()) {
+            throw new IllegalArgumentException("Room number not found!");
+        }
         optionalRoom.get().setStatus(Status.valueOf(status));
         Room room = repo.save(optionalRoom.get());
         return RoomMapper.toDTO(room);

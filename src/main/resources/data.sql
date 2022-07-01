@@ -1,7 +1,7 @@
 INSERT INTO USERS (ADDRESS, DEPARTMENTS, EMAIL, NAME, PASSWORD, PHONE_NUMBER, SEX, SURNAME, USER_TYPE, USERNAME)
 VALUES
-('Buna-Ziua nr 41', 'Video-Proector,sonorizare', 'moholea.darius@gmail.com', 'Moholea', '$2a$12$17pA96Oske1uXo0UfjycVeE5tV8HaL3RlMohx24G1ZiuByFUdzdKW', '0751583188', 0, 'Darius', 0, 'Moholeaaa'),
-('Mehedinti nr23', 'sonorizare', 'moholea58@gmail.com', 'Moholea', '$2a$12$17pA96Oske1uXo0UfjycVeE5tV8HaL3RlMohx24G1ZiuByFUdzdKW', '0751583188', 0, 'Darius', 0, 'Darius'),
+('Buna-Ziua nr 41', 'Video-Proector,sonorizare', 'moholea.darius@gmail.com', 'Moholea', '$2a$12$0G/B0Eg2BcEiNUpkwio/JuUZ38MZ52./4SmjkcOU/56buCuLK8LyC', '0751583188', 0, 'Darius', 0, 'Moholeaaa'),
+('Mehedinti nr23', 'sonorizare', 'moholea58@gmail.com', 'Moholea', '$2a$12$0G/B0Eg2BcEiNUpkwio/JuUZ38MZ52./4SmjkcOU/56buCuLK8LyC', '0751583188', 0, 'Darius', 0, 'Darius'),
 ('Mehedinti nr23', 'sonorizare', '123', 'Moholea', '$2a$12$ZL5u20b5R0EwzTweE6lsl.vTwo4847wxYMjTz7Q/ah8pEh7EGozle', '0751583188', 0, 'Darius', 0, 'supiden');
 
 INSERT INTO NOTIFICATIONS (MESSAGE, READ_DATE, SEND_DATE, SENDER, STATUS, TITLE, USER_ID)

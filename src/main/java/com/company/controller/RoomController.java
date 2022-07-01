@@ -46,7 +46,11 @@ public class RoomController {
 
     @PutMapping(path = "/updateRoomStatusByRoomNo")
     public ResponseEntity<Object> updateRoomStatusByRoomNo(@RequestParam("roomNo") int number, @RequestParam("status") String status) {
-        return new ResponseEntity<>(service.updateRoomStatusByRoomNo(number, status), HttpStatus.OK);
+        try {
+            return new ResponseEntity<>(service.updateRoomStatusByRoomNo(number, status), HttpStatus.OK);
+        } catch (IllegalArgumentException e) {
+            return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
     }
 
 }
